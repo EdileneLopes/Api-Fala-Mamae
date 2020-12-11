@@ -22,7 +22,7 @@ router.patch('/alterar/:id', controller.updateCelular)
 @route GET mãe
 @desc Tarz todas as mães cadastradas
 @access Public 
-@endpoint http://localhost:porta/mae
+@endpoint http://localhost:porta/mae/maes
 **/
 router.get('/maes', controller.getAll)
 

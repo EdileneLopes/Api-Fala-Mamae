@@ -14,7 +14,7 @@ router.get('/ajudadoras', controller.getAll)
 @route POST ajudadora
 @desc Cria uma nova ajudadora na lista
 @access Public 
-@endpoint http://localhost:porta/ajudadoras/criar
+@endpoint http://localhost:porta/ajudadora/criar
 **/
 router.post('/criar', controller.addAjudadora)
 
@@ -22,7 +22,7 @@ router.post('/criar', controller.addAjudadora)
 @route PUT ajudadora
 @desc Alterar uma nova ajudadora a partir do ID
 @access Public 
-@endpoint http://localhost:porta/ajudadoras/alterar/:id
+@endpoint http://localhost:porta/ajudadora/alterar/:id
 **/
 router.put('/alterar/:id', controller.updateAjudadora)
 
@@ -30,7 +30,7 @@ router.put('/alterar/:id', controller.updateAjudadora)
 @route DELETE ajudadora
 @desc Apagar uma nova ajudadora a partir do ID
 @access Public 
-@endpoint http://localhost:porta/ajudadoras/alterar/:id
+@endpoint http://localhost:porta/ajudadora/alterar/:id
 **/
 router.delete('/apagar/:id', controller.deleteAjudadora)
 

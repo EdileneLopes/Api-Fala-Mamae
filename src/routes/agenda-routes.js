@@ -22,8 +22,8 @@ router.post('/criar', controller.addDatas)
 @route DELETE agenda
 @desc Apaga a agenda por id
 @access Public 
-@endpoint http://localhost:porta/agenda/apagar/:id
+@endpoint http://localhost:porta/agenda/apagar
 **/
-router.delete('/apagar/:id', controller.deleteAgenda)
+router.delete('/deletar/:id', controller.deleteAgenda)
 
 module.exports = router

@@ -10,7 +10,7 @@ dotenv.config()
  * * Carregar variaveis do arquivo .env file, onde chaves de API e senhas são configuradas
  */
 
-const PORT = process.env.PORT || 5756
+const PORT = process.env.PORT || 3000
 
 
 const index = require('./src/routes/index')
