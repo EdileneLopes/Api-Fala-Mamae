@@ -37,21 +37,21 @@ GET - https://app-mamae.herokuapp.com/agenda
 ### Tecnologias utilizadas: 📌 	
 
 <img src= "https://img.shields.io/badge/-Node.Js-blue">
-&nbsp;
+
 <img src= "https://img.shields.io/badge/-Nodemoon-lightgrey">
-&nbsp;
+
 <img src= "https://img.shields.io/badge/MongoDb-Atlas-red">
-&nbsp;
+
 <img src= "https://img.shields.io/badge/-Dotevn-yellow">
-&nbsp;
+
 <img src= "https://img.shields.io/badge/-Body--Parser-orange">
-&nbsp;
+
 <img src= "https://img.shields.io/badge/-Express-green">
-&nbsp;
+
 <img src= "https://img.shields.io/badge/-Mongoose-red">
-&nbsp;
+
 <img src= "https://img.shields.io/badge/-Heroku-yellowgreen">
-&nbsp;
+
 <img src= "https://img.shields.io/badge/-Insomnia-orange">
 
 
