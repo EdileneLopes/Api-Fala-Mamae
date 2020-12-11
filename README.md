@@ -36,23 +36,8 @@ GET - https://app-mamae.herokuapp.com/agenda
 
 ### Tecnologias utilizadas: 📌 	
 
-<img src= "https://img.shields.io/badge/-Node.Js-blue">
-
-<img src= "https://img.shields.io/badge/-Nodemoon-lightgrey">
-
-<img src= "https://img.shields.io/badge/MongoDb-Atlas-red">
-
-<img src= "https://img.shields.io/badge/-Dotevn-yellow">
-
-<img src= "https://img.shields.io/badge/-Body--Parser-orange">
-
-<img src= "https://img.shields.io/badge/-Express-green">
-
-<img src= "https://img.shields.io/badge/-Mongoose-red">
-
-<img src= "https://img.shields.io/badge/-Heroku-yellowgreen">
-
-<img src= "https://img.shields.io/badge/-Insomnia-orange">
+<img src= "https://img.shields.io/badge/-Node.Js-blue"> <img src= "https://img.shields.io/badge/-Nodemoon-lightgrey"> <img src= "https://img.shields.io/badge/MongoDb-Atlas-red"> <img src= "https://img.shields.io/badge/-Dotevn-yellow"> <img src= "https://img.shields.io/badge/-Body--Parser-orange"> 
+<img src= "https://img.shields.io/badge/-Express-green">  <img src= "https://img.shields.io/badge/-Mongoose-red">  <img src= "https://img.shields.io/badge/-Heroku-yellowgreen"> <img src= "https://img.shields.io/badge/-Insomnia-orange">
 
 
 ### Rotas dos Schemas(mae, ajudadora, agenda) :
