@@ -16,7 +16,7 @@ router.get('/', controller.getAll)
 @access Public 
 @endpoint http://localhost:porta/agenda/criar
 **/
-router.post('/criar', controller.addDatas)
+router.post('/agenda/criar', controller.addDatas)
 
 /**
 @route DELETE agenda
@@ -24,6 +24,6 @@ router.post('/criar', controller.addDatas)
 @access Public 
 @endpoint http://localhost:porta/agenda/apagar
 **/
-router.delete('/deletar/:id', controller.deleteAgenda)
+router.delete('/agenda/deletar/:id', controller.deleteAgenda)
 
 module.exports = router

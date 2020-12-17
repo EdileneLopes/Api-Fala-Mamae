@@ -8,21 +8,21 @@ const controller = require('../controllers/maes-controllers')
 @access Public 
 @endpoint http://localhost:porta/mae/criar
 **/
-router.post('/criar', controller.addMae)
+router.post('/mae/criar', controller.addMae)
 
 /**
 @route PATCH mãe
 @desc Altera o celular de uma mãe
 @access Public 
-@endpoint http://localhost:porta/mae/alterar/:id
+@endpoint http://localhost:porta/alterar/:id
 **/
-router.patch('/alterar/:id', controller.updateCelular)
+router.patch('/mae/alterar/:id', controller.updateCelular)
 
 /**
 @route GET mãe
 @desc Tarz todas as mães cadastradas
 @access Public 
-@endpoint http://localhost:porta/mae/maes
+@endpoint http://localhost:porta/maes
 **/
 router.get('/maes', controller.getAll)
 
