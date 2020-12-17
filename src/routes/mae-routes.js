@@ -14,7 +14,7 @@ router.post('/mae/criar', controller.addMae)
 @route PATCH mãe
 @desc Altera o celular de uma mãe
 @access Public 
-@endpoint http://localhost:porta/alterar/:id
+@endpoint http://localhost:porta/mae/alterar/:id
 **/
 router.patch('/mae/alterar/:id', controller.updateCelular)
 

@@ -8,7 +8,7 @@ const controller = require('../controllers/agenda-controller')
 @access Public 
 @endpoint http://localhost:porta/agenda
 **/
-router.get('/', controller.getAll)
+router.get('/agenda', controller.getAll)
 
 /**
 @route POST agenda
