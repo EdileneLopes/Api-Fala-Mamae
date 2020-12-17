@@ -1,3 +1,4 @@
+const { urlencoded } = require('body-parser')
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
@@ -17,6 +18,14 @@ const ajudadoraSchema = new Schema ({
     especialidade: {
         type: String,
         required: true
+    },
+    crp: {
+        type: Number,
+        required: true
+    },
+    foto: {
+        type: String,
+        required: false
     }
 
 

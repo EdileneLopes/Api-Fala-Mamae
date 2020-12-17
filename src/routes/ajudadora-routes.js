@@ -11,10 +11,18 @@ const controller = require('../controllers/ajudadoras-controller')
 router.get('/ajudadoras', controller.getAll)
 
 /**
+@route GET ajudadora
+@desc Tarz a primeira ajudadora encontrada pelo nome
+@access Public 
+@endpoint http://localhost:porta/
+**/
+router.get('/ajudadoras', controller.getByName)
+
+/**
 @route POST ajudadora
 @desc Cria uma nova ajudadora na lista
 @access Public 
-@endpoint http://localhost:porta/ajudadora/criar
+@endpoint http://localhost:porta/criar
 **/
 router.post('/criar', controller.addAjudadora)
 
@@ -22,7 +30,7 @@ router.post('/criar', controller.addAjudadora)
 @route PUT ajudadora
 @desc Alterar uma nova ajudadora a partir do ID
 @access Public 
-@endpoint http://localhost:porta/ajudadora/alterar/:id
+@endpoint http://localhost:porta/alterar/:id
 **/
 router.put('/alterar/:id', controller.updateAjudadora)
 
@@ -30,7 +38,7 @@ router.put('/alterar/:id', controller.updateAjudadora)
 @route DELETE ajudadora
 @desc Apagar uma nova ajudadora a partir do ID
 @access Public 
-@endpoint http://localhost:porta/ajudadora/alterar/:id
+@endpoint http://localhost:porta/apagar/:id
 **/
 router.delete('/apagar/:id', controller.deleteAjudadora)
 

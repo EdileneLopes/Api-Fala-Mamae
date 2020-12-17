@@ -22,7 +22,6 @@ const getAll = (request, response) => {
 }
 
 
-
 const addDatas = (request, response) => {
     console.log(request.url)
     const ajudadoraId = request.body.id

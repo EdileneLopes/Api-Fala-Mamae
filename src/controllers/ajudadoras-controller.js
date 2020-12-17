@@ -17,6 +17,24 @@ const getAll = (request, response) => {
     })
 }
 
+const getByName = (request, response) => {
+    console.log(request.url)
+    const nomeQuery= req.query
+
+    AjudadorasCollection.findOne(nomeQuery, (error, ajudadora) => {
+        if (error) {
+            return response.status(500).send(error)
+        } else {
+            return response.status(200).send({
+                mensagem: 'GET feito com sucesso',
+                ajudadora
+            })
+        }
+    })
+}
+
+
+
 const addAjudadora = (request, response) => {
     console.log(request.url)
     const ajudadoraDoBody = request.body //pegando o que o usuário digitou
@@ -75,6 +93,7 @@ const deleteAjudadora = (request, response) => {
 
 module.exports = {
     getAll,
+    getByName,
     addAjudadora,
     updateAjudadora,
     deleteAjudadora
