@@ -4,7 +4,7 @@ const controller = require('../controllers/ajudadoras-controller')
 
 /**
 @route GET ajudadora
-@desc Tarz todas as ajudadoras cadastradas
+@desc Traz todas as ajudadoras cadastradas
 @access Public 
 @endpoint http://localhost:porta/ajudadoras
 **/
@@ -12,11 +12,11 @@ router.get('/ajudadoras', controller.getAll)
 
 /**
 @route GET ajudadora
-@desc Tarz a primeira ajudadora encontrada pelo nome
+@desc Traz a primeira ajudadora encontrada pelo nome
 @access Public 
-@endpoint http://localhost:porta/
+@endpoint http://localhost:porta/nome
 **/
-router.get('/ajudadoras', controller.getByName)
+router.get('/nome', controller.getByName)
 
 /**
 @route POST ajudadora
